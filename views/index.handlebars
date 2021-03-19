@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 class="d-flex justify-content-center my-5">你想對誰說幹話?</h5>
+        <form method="POST" action="/">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
+                  class="card-img " style="height: 16rem" alt="...">
+              </div>
+              <div class="form-check form-check-inline  d-flex justify-content-center my-5">
+                <input class="form-check-input" type="radio" name="Profession" id="engineer" value="engineer">
+                <label class="form-check-label" for="inlineRadio1">工程師</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card ">
+                <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
+                  class="card-img" style="height: 16rem" alt="...">
+              </div>
+              <div class="form-check form-check-inline  d-flex justify-content-center my-5">
+                <input class="form-check-input" type="radio" name="Profession" id="designer" value="designer">
+                <label class="form-check-label" for="inlineRadio1">設計師</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-dark">
+                <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
+                  class="card-img" style="height: 16rem" alt="...">
+              </div>
+              <div class="form-check form-check-inline  d-flex justify-content-center my-5">
+                <input class="form-check-input" type="radio" name="Profession" id="entrepreneur" value="entrepreneur">
+                <label class="form-check-label" for="inlineRadio1">創業家</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card bg-dark">
+                <img
+                  src="https://lh3.googleusercontent.com/tbca4F_TtiI_CEN5aA6FP9PZsUfX2PJkA9B34M3F4um2IPhiST41D_2jbVXX9-IjN6EP7NYPMH2gKrZlr53tDgKt6ienYClKKpriFjq9zrBdH0AympU2BIddNCNUCO-8GPrrTQ-rGms--xqGitjoVtGwMmN5S0Z2qz_B5bj8O81RXTkxaNHUHgRjSA_uMhM0ejQn2O6GXdTpIFPdODcKaN7A_xbNF478xdS-oCNhPDTjTEo3Idv5bLF8o3XSp-lwMXcbclZZDBvjMKITIikFUaLcxjcAPLehnN1zVrUvlltcL6KZ9u-hRS_ec4xtvSZUHvRxmhYd3jVfaHUQuDIhZDquqnJNNDm5LHEUUqdtqRANvdtyrDbCyYIV4TdUUjXeRZ_eLTw9dlterbZ2I80kTxaJXubnNjENv2TCl-T3KXclNO6xT6djBmJUEwKpm9zI86DPqB4FlW76VTeqLixwdBRhoefX29ZMR6vEcR2mQ05F3xCkbD8twPt5_RQ8YprbS6ninLMC9KiGqy9kcAKw7uTn-7mGM-LMxMpKXLHtMQm_koR1Cw2H1mxNddEoQ8viaQWkJeOLF5Wk_-yeG9ojOBV3ruk4XvbPbd5Z4a40pPVxY3ltJamlE4GQeeVJdBFPFhKdeS9rYAEwtqHF5LNjRcBrPIbOjWCkNpfzk2QNJ26gN0YB8gr4ZMPk0wU5V2OkZMJ57TwFsWuf92ld3j6vma0=w574-h359-no?authuser=0"
+                  class="card-img" style="height: 16rem" alt="...">
+              </div>
+              <div class="form-check form-check-inline  d-flex justify-content-center my-5">
+                <input class="form-check-input" type="radio" name="Profession" id="mechanic" value="mechanic">
+                <label class="form-check-label" for="inlineRadio1">汽車技師</label>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col-2 drytalk-area">
+                <button type="submit" class="btn btn-outline-info">想要什麼幹話</button>
+              </div>
+              <textarea class=" col-10 form-control" id="exampleFormControlTextarea1" rows="6">{{drytalk}}</textarea>
+            </div>
+          </div>
+        </form>
+    </div>
+  </div>
