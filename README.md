@@ -1,6 +1,6 @@
 # 幹話產生器 Dry Talk
 ### 選擇四種職業中,產生出你對那職業想說的幹話!
-
+![drytalk_generator_Web_Demo](https://github.com/Steavn-Chen/drytalk_generatte/blob/master/drytalk_generator_Web_Demo.PNG)
 ## 開發環境與套件
 + Node.js -v10.15.0 
 + Express -4.17.1 
